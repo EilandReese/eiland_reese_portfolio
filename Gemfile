@@ -40,6 +40,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'friendly_id', '~> 5.1.0'
+  gem 'devise', '~> 4.4', '>= 4.4.1'
 end
 
 group :development do
