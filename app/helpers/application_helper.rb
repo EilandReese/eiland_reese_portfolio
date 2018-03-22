@@ -16,3 +16,7 @@ module ApplicationHelper
     end
   end
 end
+
+def copyright_generator
+  EilandViewTool::Renderer.copyright 'Eiland Reese', 'All rights reserved'
+end
