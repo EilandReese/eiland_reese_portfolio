@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/EilandReese/eiland_view_tool
+  revision: 736fb7cc03d6677ff9e16b17fba51c0498d5b4be
+  specs:
+    eiland_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -205,6 +211,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   devise (~> 4.4, >= 4.4.1)
+  eiland_view_tool!
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails

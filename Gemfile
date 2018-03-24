@@ -55,4 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 
+gem 'eiland_view_tool', git: 'https://github.com/EilandReese/eiland_view_tool'
+
 
