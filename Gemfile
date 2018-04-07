@@ -59,4 +59,6 @@ gem 'eiland_view_tool', '~> 0.1.0'
 
 gem 'petergate', '~> 1.8'
 
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+
 
