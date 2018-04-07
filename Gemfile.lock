@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/EilandReese/eiland_view_tool
-  revision: 736fb7cc03d6677ff9e16b17fba51c0498d5b4be
-  specs:
-    eiland_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,6 +76,7 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
+    eiland_view_tool (0.1.0)
     erubi (1.7.1)
     execjs (2.7.0)
     ffi (1.9.23-x86-mingw32)
@@ -211,7 +206,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   devise (~> 4.4, >= 4.4.1)
-  eiland_view_tool!
+  eiland_view_tool (~> 0.1.0)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
