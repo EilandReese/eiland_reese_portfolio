@@ -32,6 +32,8 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'kaminari'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -60,5 +62,9 @@ gem 'eiland_view_tool', '~> 0.1.0'
 gem 'petergate', '~> 1.8'
 
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+
+gem "font-awesome-rails", '~>4.7', '>= 4.7.0.1'
+
+
 
 
