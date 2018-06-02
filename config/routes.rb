@@ -18,5 +18,7 @@ Rails.application.routes.draw do
 
   resources :blogs
 
+  mount ActionCable.server => '/cable'
+
   root to: 'pages#home'
 end
