@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/codahale/bcrypt-ruby.git
-  revision: 12a50f4ff20c1723cc08b3f3c5dcd257c305172c
-  specs:
-    bcrypt (3.1.12)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -64,6 +58,7 @@ GEM
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.0)
     aws-sigv4 (1.0.2)
+    bcrypt (3.1.12-x86-mingw32)
     bindex (0.5.0)
     bootstrap (4.0.0)
       autoprefixer-rails (>= 6.0.3)
@@ -295,7 +290,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bcrypt!
+  bcrypt (~> 3.1, >= 3.1.12)
   bootstrap (~> 4.0.0)
   byebug
   capybara (~> 2.13)
@@ -331,4 +326,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
