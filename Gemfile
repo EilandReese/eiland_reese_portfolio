@@ -44,6 +44,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'friendly_id', '~> 5.1.0'
   gem 'devise', '~> 4.4', '>= 4.4.1'
+  gem 'dotenv-rails', '~> 2.5'
 end
 
 group :development do
@@ -64,7 +65,6 @@ gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'carrierwave', '~> 0.11.2'
 gem 'mini_magick', '~> 4.8'
 gem 'carrierwave-aws', '~> 1.3'
-gem 'dotenv-rails', '~> 2.4'
 gem 'cocoon', '~> 1.2', '>= 1.2.11'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.2'
